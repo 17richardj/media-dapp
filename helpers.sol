@@ -3,6 +3,9 @@ pragma experimental ABIEncoderV2;
 
 import "./user.sol";
 
+/*
+library helpers contains modifiers to enhance function power and readability
+*/
 library helpers{
     
     modifier validateId(uint id) {
